@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,
+.contenedor_logo, .contenedor_titulo, .menu, main, .contenedor_descripcion,  .main_listas div ul li, 
+.contenedor_listas, form, .footer, .footer div{
+    display: flex;
+}
+body, header, .contenedor_titulo, .contenedor_menu, .menu, main, .main_personajes, .contenedor_listas,
+.footer, .footer div{
+    width: 100%;
+}
+body, header, .contenedor_titulo, img, .contenedor_menu, .menu, main, .main_personajes, .contenedor_listas,
+.footer, .footer div{
+    height: 100%;
+}
+header{
+    height: 4em;
+}
+.contenedor_logo, .contenedor_descripcion, form, button{
+    width: 30%;
+}
+.contenedor_titulo {
+    width: 60%;
+}
+.contenedor_menu, .footer div{
+    width: 50%;
+}
+main{
+    height: 40em;
+}
+.contenedor_descripcion{
+    height: 60%;
+}
+.main_listas div {
+    width: 10%;
+    height: 80%;
+}
+.contenedor_listas{
+    height: 30em;
+}
+#comentario, form input {
+    width: 70%;
+}
+#comentario {
+    resize: none;
+}
+.main_contacto img{
+    width: 55%;
+    height: 80%;
+}
+form {
+    height: 75%;
+}
+form input, #personaje_favorito, button{
+    height: 2em;
+}
+#personaje_favorito {
+    width: 40%;
+}
+.footer{
+    height: 3em;
+}
+.contenedor_listas img {
+    width:  1em;
+    height: 1em;
+}
+.tabla td img{
+    width: 6em;
+    height: 6em;
+}
+.contenedor_descripcion {
+    padding-right: 3em;
+    padding-top: 1em;
+}
+header, .contenedor_logo, .main_listas div ul li {
+    justify-content: space-between;
+}
+.menu, .main_listas, .contenedor_listas, .main_contacto, form {
+    justify-content: space-around;
+}
+.contenedor_titulo, .footer, .footer div{
+    justify-content: center;
+}
+.contenedor_descripcion {
+    justify-content: space-evenly;
+}
+.contenedor_titulo, .menu, .menu li, .contenedor_descripcion, .main_listas, .main_contacto, form, 
+.footer div {
+    align-items: center;
+}
+.contenedor_descripcion, .contenedor_listas, form{
+    flex-direction: column;
+}
+.fondo_index {
+    background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/06/23/16244426663318.jpg);
+    background-size: 100%;
+    align-items: flex-start;
+    justify-content: flex-end;  
+}
+body, .main_contacto{
+    background-color: #4AA39E;
+}
+header, form, .footer{
+    background-color: #101823;
+}
+.contenedor_titulo {
+    background-color: #FF4756;
+}
+label {
+    background-color: #f6f0f0;
+}
+.contenedor_logo .contenedor_titulo h1, .tabla td h3, .tabla td p, label{
+    color: #101823;
+}
+.menu li a {
+    color:#ffffff;
+}
+.contenedor_descripcion h2{
+    color: #f7eaea;
+}
+.contenedor_descripcion p, .footer {
+    color: #f6f0f0;
+}
+.menu li, .main_listas div ul li{
+    list-style: none;
+}
+.menu li:hover {
+    border-bottom: 0.5em solid #FF4756;
+    transition: 0.3s;
+}
+.tabla_principal, .tabla td{
+    border: 0.2em solid #101823;
+}
+.contenedor_logo .contenedor_titulo h1, .contenedor_descripcion h2{
+    font-size: 3em;
+}
+.menu li a, .titulo_personaje {
+    text-decoration: none;
+    font-size: 2em;
+}
+.contenedor_logo .contenedor_titulo h1{
+    font-family: 'Rubik', sans-serif;
+}
+.contenedor_descripcion h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 0.1em solid #FF4756;
+}
+.contenedor_descripcion p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6em;
+}
+.footer {
+    font-size: 1.8em;
+}
